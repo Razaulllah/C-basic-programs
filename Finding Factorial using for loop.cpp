@@ -5,12 +5,12 @@ int  main ()
 {
 	int j = 1;
 	int n;
-	cout << "Enter value to find factorial" <<endl;
+	cout << " Enter value to find factorial " <<endl;
 	cin >> n;
 	for (int i=1; i<=n; i++){
 		j = i * j;
 	
 	}
-	 cout <<"The factoial of "<<n<< " is " <<j<<endl;	
+	 cout <<" The factorial of "<< n << " is " << j <<endl;	
 }
 
